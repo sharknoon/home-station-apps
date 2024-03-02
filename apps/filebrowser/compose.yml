@@ -17,18 +17,6 @@ services:
             - '/var/lib/docker/volumes:/srv/volumes'
             - 'db:/database'
             - 'config:/etc/filebrowser'
-        labels:
-            traefik.enable: true
-            traefik.http.routers.filebrowser.entrypoints: websecure
-            traefik.http.routers.filebrowser.rule: Host(`filebrowser.sharknoon.de`)
-            traefik.http.routers.filebrowser.service: filebrowser
-            traefik.http.services.filebrowser.loadbalancer.server.port: 80
-        networks:
-            - traefik_net
-
-networks:
-    traefik_net:
-        external: true
 
 volumes:
     data:
