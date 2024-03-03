@@ -17,6 +17,11 @@ services:
             - '/var/lib/docker/volumes:/srv/volumes'
             - 'db:/database'
             - 'config:/etc/filebrowser'
+        labels:
+            home-station.enable: true
+            home-station.app.id: filebrowser
+            home-station.marketplace: https://github.com/home-station-org/apps
+            home-station.app.version: 0.1.0
 
 volumes:
     data:
