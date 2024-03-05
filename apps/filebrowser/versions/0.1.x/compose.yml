@@ -19,7 +19,7 @@ services:
             - 'config:/etc/filebrowser'
         labels:
             home-station.enable: true
-            home-station.app: https://github.com/home-station-org/apps|filebrowser|0.1.0
+            home-station.app: https://github.com/home-station-org/apps.git|filebrowser|0.1.0
 
 volumes:
     data:
