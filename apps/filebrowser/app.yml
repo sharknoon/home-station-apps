@@ -17,7 +17,8 @@ links:
           url: 'https://demo.filebrowser.org/login?redirect=%2Ffiles%2F'
 publishedAt: '2021-01-01T00:00:00Z'
 developer: 'filebrowser'
-category: 'File Transfer - Web-based File Managers'
+category: 'productivity'
+license: 'Apache-2.0'
 config: # User facing config during setup, optional
     - id: 'api-key'
       name:
