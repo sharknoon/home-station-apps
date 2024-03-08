@@ -8,7 +8,7 @@ description:
 icon: 'icon.svg'
 banner: 'banner.png' # optional
 screenshots: # optional
-  - screenshot-1
+  - screenshot-1.gif
 links:
     repository: 'https://github.com/filebrowser/filebrowser'
     website: 'https://filebrowser.org/' # optional
