@@ -7,6 +7,8 @@ description:
     de: 'File Browser bietet eine Dateiverwaltungsoberfläche innerhalb eines angegebenen Verzeichnisses und kann zum Hochladen, Löschen, Vorschauen, Umbenennen und Bearbeiten Ihrer Dateien verwendet werden. Es ermöglicht die Erstellung mehrerer Benutzer und jeder Benutzer kann sein eigenes Verzeichnis haben. Es kann als eigenständige App verwendet werden.'
 icon: 'icon.svg'
 banner: 'banner.png' # optional
+screenshots: # optional
+  - screenshot-1
 links:
     repository: 'https://github.com/filebrowser/filebrowser'
     website: 'https://filebrowser.org/' # optional
