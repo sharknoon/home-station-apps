@@ -9,6 +9,12 @@ icon: 'icon.svg'
 banner: 'banner.png' # optional
 screenshots: # optional
   - screenshot-1.gif
+  - screenshot-2.png
+  - screenshot-3.png
+  - screenshot-4.png
+  - screenshot-5.png
+  - screenshot-6.png
+  - screenshot-7.png
 links:
     repository: 'https://github.com/filebrowser/filebrowser'
     website: 'https://filebrowser.org/' # optional
