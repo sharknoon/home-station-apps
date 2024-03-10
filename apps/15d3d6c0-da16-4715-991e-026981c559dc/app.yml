@@ -49,4 +49,4 @@ http: # optional, one of http, tcp or udp is required (ports of tcp and udp need
 messages:
     post-install:
         en: 'The default username is admin and the default password is admin. You can change them in the settings.'
-        de: 'Der Standardbenutzername ist admin und das Standardpasswort ist admin. Sie können sie in den Einstellungen ändern.'
+        de: 'Der Standardbenutzername ist admin und das Standardpasswort ist admin. Sie können diese in den Einstellungen ändern.'
