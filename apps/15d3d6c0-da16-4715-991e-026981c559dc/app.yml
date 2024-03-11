@@ -35,11 +35,18 @@ config: # User facing config during setup, optional
           en: 'You need an api key to use this service'
           de: 'Du benötigst einen API-Key um diesen Dienst zu nutzen'
       type: 'string' # Other types: Boolean, Number, Select, Range, Color, Date, Datetime, Email, month, password, tel, time, url, week
+      environmentVariable: 'API_KEY'
       required: false
       default: 'sadf' # Optional if required = true
-      environment: 'API_KEY'
-      form-validation: '[0-9a-bA-Z]+' # optional
-      value-validation: 'myscript.js' # optional
+      selectOptions: # Required if type = select
+          - "first option"
+          - "second option"
+      rangeOptions:
+          min: 0
+          max: 100
+          step: 1
+      validation: '[0-9a-bA-Z]+' # optional
+      validationScript: 'myscript.js' # optional
 http: # optional, one of http, tcp or udp is required (ports of tcp and udp needs to be globally unique)
     - port: 80
       description:
