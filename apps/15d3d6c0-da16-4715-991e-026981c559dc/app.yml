@@ -6,8 +6,8 @@ description:
     en: 'File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory. It can be used as a standalone app.'
     de: 'File Browser bietet eine Dateiverwaltungsoberfläche innerhalb eines angegebenen Verzeichnisses und kann zum Hochladen, Löschen, Vorschauen, Umbenennen und Bearbeiten Ihrer Dateien verwendet werden. Es ermöglicht die Erstellung mehrerer Benutzer und jeder Benutzer kann sein eigenes Verzeichnis haben. Es kann als eigenständige App verwendet werden.'
 icon: 'icon.svg'
-banner: 'banner.png' # optional
-screenshots: # optional
+banner: 'banner.png'
+screenshots:
   - screenshot-1.png
   - screenshot-2.png
   - screenshot-3.png
@@ -16,12 +16,12 @@ screenshots: # optional
   - screenshot-6.png
 links:
     repository: 'https://github.com/filebrowser/filebrowser'
-    website: 'https://filebrowser.org/' # optional
+    website: 'https://filebrowser.org/'
     custom:
         - name:
               en: 'Demo'
               de: 'Demo'
-          url: 'https://demo.filebrowser.org'
+          url: 'https://demo.filebrowser.org/'
 publishedAt: '2021-01-01T00:00:00Z'
 developer: 'filebrowser'
 category: 'productivity'
