@@ -27,7 +27,7 @@ developer: 'filebrowser'
 category: 'productivity'
 license: 'Apache-2.0'
 http:
-    - port: 80
+    - port: 8080
       description:
           en: 'Web ui'
           de: 'Web-UI'
