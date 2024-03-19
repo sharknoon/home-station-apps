@@ -17,6 +17,8 @@ services:
             - '/var/lib/docker/volumes:/srv/volumes'
             - 'db:/database'
             - 'config:/etc/filebrowser'
+        networks:
+            - home-station
         labels:
             home-station.enable: true
             home-station.app: 15d3d6c0-da16-4715-991e-026981c559dc
@@ -26,3 +28,7 @@ volumes:
     data:
     db:
     config:
+
+networks:
+  home-station:
+    external: true
