@@ -28,6 +28,7 @@ services:
             traefik.http.routers.15d3d6c0-da16-4715-991e-026981c559dc.service: 15d3d6c0-da16-4715-991e-026981c559dc
             #traefik.http.routers.15d3d6c0-da16-4715-991e-026981c559dc.middlewares: authelia@docker
             traefik.http.services.15d3d6c0-da16-4715-991e-026981c559dc.loadBalancer.server.port: 80
+            traefik.http.services.15d3d6c0-da16-4715-991e-026981c559dc.loadBalancer.server.scheme: http
 
 volumes:
   data:
