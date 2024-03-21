@@ -2,7 +2,6 @@ version: '3.3'
 services:
     filebrowser:
         image: filebrowser/filebrowser
-        container_name: filebrowser
         entrypoint:
             [
                 '/filebrowser',
@@ -23,6 +22,12 @@ services:
             home-station.enable: true
             home-station.app: 15d3d6c0-da16-4715-991e-026981c559dc
             home-station.app-version: 0.1.0
+            traefik.enable: true
+            traefik.http.routers.filebrowser.entrypoints: websecure
+            traefik.http.routers.filebrowser.rule: HostRegexp(`filebrowser.{host:[a-z.]+}`)
+            traefik.http.routers.filebrowser.service: filebrowser
+            #traefik.http.routers.filebrowser.middlewares: authelia@docker
+            traefik.http.services.filebrowser.loadbalancer.server.port: 80
 
 volumes:
     data:
