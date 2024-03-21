@@ -32,6 +32,7 @@ http:
           en: 'Web ui'
           de: 'Web-UI'
       subdomain: 'filebrowser'
+      default: true
 messages:
     postInstall:
         en: 'The default username is admin and the default password is admin. You can change them in the settings.'
