@@ -7,8 +7,10 @@ services:
         entrypoint:
             [
                 '/filebrowser',
-                '-c',
-                '/etc/filebrowser/.filebrowser.json',
+                '-a',
+                '0.0.0.0',
+                '-p',
+                '80',
                 '-d',
                 '/database/filebrowser.db'
             ]
