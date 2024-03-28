@@ -1,4 +1,4 @@
-uuid: '15d3d6c0-da16-4715-991e-026981c559dc'
+id: '@github.com/home-station-org/apps:filebrowser'
 name:
     en: 'File Browser'
     de: 'File Browser'

@@ -23,7 +23,7 @@ services:
             - home-station
         labels:
             home-station.enable: true
-            home-station.app: 15d3d6c0-da16-4715-991e-026981c559dc
+            home-station.app: '@github.com/home-station-org/apps:filebrowser'
             home-station.app-version: 0.1.0
 
 volumes:
