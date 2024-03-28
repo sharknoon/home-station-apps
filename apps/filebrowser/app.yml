@@ -27,8 +27,7 @@ developer: 'filebrowser'
 category: 'productivity'
 license: 'Apache-2.0'
 http:
-    - hostname: '018e7ff1-5f06-7e21-be3d-08acbb6240ec'
-      port: 80
+    - port: 80
       description:
           en: 'Web ui'
           de: 'Web-UI'
