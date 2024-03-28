@@ -2,7 +2,6 @@ version: '3.3'
 services:
     filebrowser:
         image: filebrowser/filebrowser
-        container_name: 018e7ff1-5f06-7e21-be3d-08acbb6240ec
         entrypoint:
             [
                 '/filebrowser',
