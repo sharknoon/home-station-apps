@@ -26,13 +26,6 @@ publishedAt: '2021-01-01T00:00:00Z'
 developer: 'filebrowser'
 category: 'productivity'
 license: 'Apache-2.0'
-http:
-    - port: 80
-      description:
-          en: 'Web ui'
-          de: 'Web-UI'
-      subdomain: 'filebrowser'
-      default: true
 messages:
     postInstall:
         en: 'The default username is admin and the default password is admin. You can change them in the settings.'
