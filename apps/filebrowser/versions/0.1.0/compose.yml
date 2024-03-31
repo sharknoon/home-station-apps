@@ -24,6 +24,8 @@ services:
             home-station.enable: true
             home-station.app: '@github.com/home-station-org/apps:filebrowser'
             home-station.app-version: 0.1.0
+            home-station.http.ui.port: 80
+            home-station.http.ui.subdomain: "filebrowser"
 
 volumes:
   data:
