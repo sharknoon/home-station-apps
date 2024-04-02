@@ -15,7 +15,6 @@ services:
         restart: always
         volumes:
             - 'data:/srv'
-            - '/var/lib/docker/volumes:/srv/volumes'
             - 'db:/database'
             - 'config:/etc/filebrowser'
         networks:
