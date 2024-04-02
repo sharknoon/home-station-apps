@@ -1,4 +1,5 @@
 version: '3.3'
+
 services:
     filebrowser:
         image: filebrowser/filebrowser
@@ -25,6 +26,7 @@ services:
             home-station.app-version: 0.1.0
             home-station.http.ui.port: 80
             home-station.http.ui.subdomain: "filebrowser"
+            home-station.http.ui.title: "File Browser"
 
 volumes:
   data:
